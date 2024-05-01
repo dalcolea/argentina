@@ -1,7 +1,7 @@
 //incorporar la variable de conexión que tenemos en el fichero config.db
 const {conexion} =  require('../config.db')
 
-//definir la función getExcursion donde accederemos a la base de datos 
+//definir la función getExcursion donde accederemos a la base de datos node 
 const getExcursion = (req, res) => {
     //recuperar el parametro con la excursion a consultar y que nos llega en la ruta de la peticion
     const id = req.params.id
